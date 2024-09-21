@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Cheat Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img src="css_cheat_sheet_logo.png" alt="Cool Logo" class="logo">
+        <h1>CSS Cheat Sheet</h1>
+    </header>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Property</th>
+                <th>Description</th>
+                <th>Example</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>color</code></td>
+                <td>Sets the color of the text</td>
+                <td><code>color: red;</code></td>
+            </tr>
+            <tr>
+                <td><code>background-color</code></td>
+                <td>Sets the background color of an element</td>
+                <td><code>background-color: #f4f4f9;</code></td>
+            </tr>
+            <tr>
+                <td><code>font-size</code></td>
+                <td>Specifies the size of the font</td>
+                <td><code>font-size: 16px;</code></td>
+            </tr>
+            <tr>
+                <td><code>margin</code></td>
+                <td>Sets the margin area around an element</td>
+                <td><code>margin: 20px;</code></td>
+            </tr>
+            <tr>
+                <td><code>padding</code></td>
+                <td>Sets the padding area inside an element</td>
+                <td><code>padding: 10px;</code></td>
+            </tr>
+            <tr>
+                <td><code>border</code></td>
+                <td>Defines the border around an element</td>
+                <td><code>border: 1px solid #ddd;</code></td>
+            </tr>
+            <!-- Add more rows as needed for other CSS properties -->
+        </tbody>
+    </table>
+
+</body>
+
+</html>
